@@ -1,7 +1,9 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div>トランスパイルされたソースを表示するページ</div>
+    <div ng-app="app" ng-strict-di>
+        <ui-view></ui-view>
+    </div>
 {% endblock %}
 
 {% block javascripts %}
