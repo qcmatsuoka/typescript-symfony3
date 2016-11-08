@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular": "~1.5.8",
+    "angular-provide": "~1.1.2",
+    "angular-sanitize": "~1.5.8",
+    "angular-ui-router": "~1.0.0-beta.2",
     "awesome-typescript-loader": "~2.2.4",
     "source-map-loader": "~0.1.5",
     "typescript": "~2.0.8",
