@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div>トランスパイルされたソースを表示するページ</div>
+{% endblock %}
+
+{% block javascripts %}
+    {% javascripts 'bundles/app/assets/*.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
