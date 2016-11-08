@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "awesome-typescript-loader": "~2.2.4",
+    "source-map-loader": "~0.1.5",
+    "typescript": "~2.0.8",
+    "webpack": "~1.13.3",
+    "webpack-merge": "~0.15.0"
+  }
 }
