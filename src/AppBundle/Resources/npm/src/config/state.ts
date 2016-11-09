@@ -8,8 +8,8 @@ export function configState($stateProvider: IStateProvider) {
       url: '/home',
       template: `
         <h2>home</h2>
-        <div><a href ui-sref="items({id:1})">items1</a></div>
-        <div><a href ui-sref="items({id:2)}">items2</a></div>
+        <link-label no="1"></link-label>
+        <link-label no="2"></link-label>
       `
     })
     .state('items', {
