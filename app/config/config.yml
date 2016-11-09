@@ -66,3 +66,9 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# npm
+hshn_npm:
+    bin: "%kernel.root_dir%/../node_modules/.bin/npm"
+    bundles:
+        AppBundle: ~
