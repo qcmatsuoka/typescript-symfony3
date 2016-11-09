@@ -1,0 +1,17 @@
+{
+  "name": "symfony3_with_typescript",
+  "version": "1.0.0",
+  "description": "symfony3_with_typescript ========================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^3.10.9"
+  }
+}
