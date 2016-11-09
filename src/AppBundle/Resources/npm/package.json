@@ -6,7 +6,9 @@
   "scripts": {
     "build": "webpack --config webpack.conf.js --progress --profile --colors --display-error-details --display-cached",
     "build:prod": "npm run build --production",
-    "watch": "npm run build -- --watch"
+    "watch": "npm run build -- --watch",
+    "test": "karma start",
+    "watch:test": "npm run test -- --auto-watch --no-single-run"
   },
   "author": "",
   "license": "ISC",
