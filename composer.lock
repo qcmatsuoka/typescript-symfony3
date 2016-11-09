@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f577d23796f611ab9e9ee066e56fd4bc",
-    "content-hash": "84397bcd199b73c63cb317d11076d8aa",
+    "hash": "c65b3bae98cf936ba37c65ce80a679cd",
+    "content-hash": "58069a10acc62f3b538f0a1ad0dbfffd",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -774,6 +774,58 @@
                 "orm"
             ],
             "time": "2016-09-10 18:51:13"
+        },
+        {
+            "name": "hshn/npm-bundle",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hshn/HshnNpmBundle.git",
+                "reference": "241cee9a3e8e96aa240ed2aef6a8eccef316e569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hshn/HshnNpmBundle/zipball/241cee9a3e8e96aa240ed2aef6a8eccef316e569",
+                "reference": "241cee9a3e8e96aa240ed2aef6a8eccef316e569",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/config": "^2.7.6|^3.0.2",
+                "symfony/console": "^2.7.6|^3.0.2",
+                "symfony/dependency-injection": "^2.7.6|^3.0.2",
+                "symfony/http-kernel": "^2.7.6|^3.0.2",
+                "symfony/process": "^2.7.6|^3.0.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.2",
+                "symfony/framework-bundle": "^2.7.6|^3.0.2"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hshn\\NpmBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shota Hoshino",
+                    "email": "sht.hshn@gmail.com"
+                }
+            ],
+            "description": "Handle asset dependencies and scripts with npm",
+            "keywords": [
+                "npm"
+            ],
+            "time": "2016-04-20 13:00:20"
         },
         {
             "name": "incenteev/composer-parameter-handler",
